@@ -1,10 +1,10 @@
-import React from 'react'
+import { Link } from 'react-router-dom'
 
 const About = () => {
     return (
         <div>
             <h4>This is about Page</h4>
-            <a href='/'>Go Back</a>
+            <Link to='/'>Go Back</Link>
         </div>
     )
 }
